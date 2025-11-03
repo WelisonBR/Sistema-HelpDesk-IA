@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36221.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjetoHelpDesk", "ProjetoHelpDesk.csproj", "{871AA708-3FA6-4004-A557-3B835A4F913E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelpDeskAdmin", "..\HelpDeskAdmin\HelpDeskAdmin.csproj", "{FE68EC40-6F5C-48FE-A10B-A0C1CF29FA8C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Itens de Solução", "Itens de Solução", "{380A7511-A354-6D7A-0CC0-8FA1F1BA7B6C}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BancoDeDados", "BancoDeDados", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\SQL Server Management Studio 21\ScriptPim.sql = ..\..\..\SQL Server Management Studio 21\ScriptPim.sql
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{871AA708-3FA6-4004-A557-3B835A4F913E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{871AA708-3FA6-4004-A557-3B835A4F913E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{871AA708-3FA6-4004-A557-3B835A4F913E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{871AA708-3FA6-4004-A557-3B835A4F913E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE68EC40-6F5C-48FE-A10B-A0C1CF29FA8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE68EC40-6F5C-48FE-A10B-A0C1CF29FA8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE68EC40-6F5C-48FE-A10B-A0C1CF29FA8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE68EC40-6F5C-48FE-A10B-A0C1CF29FA8C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2AB693B2-CA21-4A19-863E-C3995F8B293D}
+	EndGlobalSection
+EndGlobal

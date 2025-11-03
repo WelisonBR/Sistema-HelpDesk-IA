@@ -1,0 +1,17 @@
+connectionStrings.config
+appSettings.config
+
+# Pastas de compilacao do Visual Studio
+bin/
+obj/
+
+# Arquivos de configuracao local do Visual Studio
+.vs/
+*.suo
+*.user
+
+# Pacotes NuGet
+packages/
+
+_ReSharper.*/
+*.resharper
